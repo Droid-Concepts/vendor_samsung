@@ -176,16 +176,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmwvmplugin
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := libdrmwvmplugin.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/drm
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libWVStreamControlAPI_L1
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := libWVStreamControlAPI_L1.so
